@@ -1,0 +1,27 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.moj-datepicker__mapps {
+  width: 70%;
+  position: relative;
+}
+
+.moj-datepicker__toggle.moj-datepicker__toggle--mapps {
+  border-bottom: 0px !important;
+  border-radius: 0;
+  height: 34px;
+  position: absolute;
+  width: 44px;
+  z-index: 1;
+  right: 9px;
+  top: 0;
+  pointer-events: none;
+}
+
+.moj-datepicker__toggle--mapps > svg {
+  left: 6px;
+  position: relative;
+}
